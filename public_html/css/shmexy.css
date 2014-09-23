@@ -9,11 +9,23 @@ and open the template in the editor.
 */
 body{
  text-color:white;
- background-image: img/fender-stratocaster.jpg ;
-
+ background-image: url() ;
+/* this helps use css and bootstrap to create boorders */
 }
 div{
     border-style: solid;
     padding:40px;
-    color: red;
+  
+}
+.container {
+    color:#28a4c9
+}
+.row{
+    color:red;
+}
+.col-xs-10{
+    color: blueviolet
+}
+.col-xs-2{
+    color:gold
 }
