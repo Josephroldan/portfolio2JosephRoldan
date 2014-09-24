@@ -18,7 +18,10 @@ div{
   
 }
 .container {
-    color:#28a4c9
+    color:#28a4c9;
+       padding: 100px;
+       padding-left:100px; 
+       padding-right:100px ;    
 }
 .row{
     color:red;
@@ -27,5 +30,5 @@ div{
     color: blueviolet
 }
 .col-xs-2{
-    color:gold
+    color:gold;
 }
