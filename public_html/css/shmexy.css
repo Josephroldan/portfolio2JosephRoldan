@@ -9,34 +9,41 @@ and open the template in the editor.
 */
 body{
  text-color:white;
- background-image: url() ;
+ background-image: url(http://freshtheme.net/wp-content/uploads/2014/07/rock_music_hd_wallpaper_22.jpg) ;
+ background-size: 900px;
+
 /* this helps use css and bootstrap to create boorders */
 }
 div{
     border-style: solid;
+    font-size: 20px;
+   text-color:white;
     padding:40px;
-  
+ /* this gives us the padding and style we want for the div borders and bootstrap*/ 
 }
 .container {
-    color:#28a4c9;
+    color:white;
        padding: 100px;
        padding-left:100px; 
        padding-right:100px ;    
 }
+/*this puts in padding and color for a specific div tag*/
 .row{
-    color:red;
+color: white    ;
 }
 .col-xs-10{
-    color: blueviolet
+ 
 }
 .col-xs-2{
-    color:gold;
+    ;
+    
 }
     .list-group-item{
       border:0;
        margin-top:   25px;
        margin-bottom: 25px;
     }
-    .img{
-        size: ;
+    .jumbotron{
+        background-image: url(http://ejomlexus.files.wordpress.com/2011/07/god-listens-to-rock-music.jpg)
     }
+ 
