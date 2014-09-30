@@ -8,34 +8,35 @@ and open the template in the editor.
     Author     : Student
 */
 body{
- text-color:white;
- background-image: url(http://freshtheme.net/wp-content/uploads/2014/07/rock_music_hd_wallpaper_22.jpg) ;
+background-color: lightgray;
+ background-image: url() ;
  background-size: 900px;
 
 /* this helps use css and bootstrap to create boorders */
 }
 div{
     border-style: solid;
+    background-color: lightgray;
     font-size: 20px;
    text-color:white;
     padding:40px;
  /* this gives us the padding and style we want for the div borders and bootstrap*/ 
 }
 .container {
-    color:white;
+    color:gray;
        padding: 100px;
        padding-left:100px; 
        padding-right:100px ;    
 }
 /*this puts in padding and color for a specific div tag*/
 .row{
-color: white    ;
+color: black    ;
 }
 .col-xs-10{
- 
+ color:black
 }
 .col-xs-2{
-    ;
+    color: grey
     
 }
     .list-group-item{
@@ -44,6 +45,10 @@ color: white    ;
        margin-bottom: 25px;
     }
     .jumbotron{
-        background-image: url(http://ejomlexus.files.wordpress.com/2011/07/god-listens-to-rock-music.jpg)
+        background-image: url(img/Rock-music.jpg);
+            color: black
+    }
+    p {
+        color: black
     }
  
