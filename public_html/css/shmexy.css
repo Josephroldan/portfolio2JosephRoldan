@@ -8,35 +8,35 @@ and open the template in the editor.
     Author     : Student
 */
 body{
-background-color: lightgray;
- background-image: url() ;
- background-size: 900px;
-
+background-image: url(https://pbs.twimg.com/profile_images/2475424155/kibrrqt4hj4a59smvvlm.jpeg);
+background-size: 1500px;
+   
 /* this helps use css and bootstrap to create boorders */
 }
 div{
     border-style: solid;
-    background-color: lightgray;
     font-size: 20px;
    text-color:white;
     padding:40px;
+    border: 0;
  /* this gives us the padding and style we want for the div borders and bootstrap*/ 
 }
 .container {
-    color:gray;
+    
        padding: 100px;
        padding-left:100px; 
        padding-right:100px ;    
 }
 /*this puts in padding and color for a specific div tag*/
 .row{
-color: black    ;
+color: white    ;
+borders:0;
 }
 .col-xs-10{
- color:black
+ color:white
 }
 .col-xs-2{
-    color: grey
+   borders:0; 
     
 }
     .list-group-item{
